@@ -22,5 +22,3 @@ def get_postcodes_from_range(user_post_code_1, user_post_code_2):
             results.append("".join(result))
 
     return results
-
-print(get_postcodes_from_range("21-200", "20-200"))
